@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Treinamento</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="go">Go</string>
+    <string name="text_field">Text Field</string>
+    <string name="image_field">Image Filed</string>
+    <string name="clicked_on">You clicked on: %s</string>
+    <string name="position">"Position: %d "</string>
+    <string name="title_activity_contato">New Contact</string>
+    <string name="new_contact">New</string>
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="site">Site</string>
+    <string name="phone">Phone</string>
+    <string name="save_contact">Save Contact</string>
+
+</resources>
