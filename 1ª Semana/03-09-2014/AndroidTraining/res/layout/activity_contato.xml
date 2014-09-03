@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/MargemLayout"
+    tools:context="com.example.treinamento.app.ContatoActivity" >
+
+    <EditText
+        android:id="@+id/txt_contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txt_contact_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:hint="@string/address" />
+
+    <EditText
+        android:id="@+id/txt_contact_site"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textUri"
+        android:hint="@string/site" />
+
+    <EditText
+        android:id="@+id/txt_contact_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" 
+        android:hint="@string/phone"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar_contact_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:numStars="@integer/stars_numbers" />
+
+    <Button
+        android:id="@+id/btn_contact_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save_contact" />
+
+</LinearLayout>
